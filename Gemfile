@@ -5,9 +5,10 @@ group :active_record do
 end
 
 group :data_mapper do
-  gem 'dm-core', '~> 1.0'
+  gem 'dm-core', '~> 1.2'
   gem 'dm-sqlite-adapter'
   gem 'dm-migrations'
+  gem 'dm-validations'
 end
 
 group :mongo_mapper do
